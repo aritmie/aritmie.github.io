@@ -1,0 +1,18 @@
+/*
+	This is the CSS file for website.
+*/
+
+body {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+
+}
+
+div {
+	text-align: center;
+	padding: 20px;
+}
