@@ -1,18 +1,210 @@
-/*
-	This is the CSS file for website.
-*/
-
-body {
+#body {
 	background-color: black;
+
+background-image: url("") no-repeat center center fixed;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+}
+
+#wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width: 96%;
+	height: 100%;
+	max-height: 900px
+}   
+
+#header {
+
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	height: 1%;
+	min-height: 20px;
+	max-height: 90px;
+	border: solid;
+	border-width: 0px;
+	border-color: white;
+	position: relative; 
+}
+
+#title {
+	margin-left: 10%;
+	position: absolute;
+}
+
+#title h1 {
+
+	 text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+	    position: relative;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+	
+	margin-left: 10%;
 	color: white;
+	font-size: 6vw;
+	font: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
 }
 
-h1 {
-	text-align: center;
+
+#navigation {
+	
+	
+	position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+.navlink {
+	
+	display: inline;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom:auto;
+	width: 20%;
+
+	margin-left: 100%;
 
 }
 
-div {
+#navigation a {
 	text-align: center;
-	padding: 20px;
+	position: relative;
+	color: white;
+	font-size: 3.5vw;
+	font: Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	z-index: 5;
+	opacity: 0.8;
+	
+   
+}
+
+.stretch {
+	width: 100%;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.date {
+	font-size: 1vw;
+	font-style: oblique;
+	color: white;
+	text-align: right;
+	font: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar {
+	
+}
+
+#content {
+	margin-top: 5%;
+	overflow-y: scroll;
+	height: 40%;
+	max-height: 600px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bigimg{
+	width: 100%;
+}
+
+.cheader {
+	color: black;
+	font-size: 2vw;
+	text-align: right;
+	font: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.cheaderl {
+	color: black;
+	font-size: 2vw;
+	text-align: left;
+	font: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.ctexte {
+	font-size:: 1vw;
+	color: black;
+	float: left;
+	text-align: left;
+	width: 47%;
+	font: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ctextj {
+	font-size:: 1vw;
+	color: black;
+	float: right;
+	text-align: right;
+	width: 47%;
+	font: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+	position: absolute;
+	float: center;
+	margin-right: auto;
+	margin-left:auto;
+	clear: both;
+	width: 90%;
+	height: 50px;
+}
+
+#footer p {
+	color: white;
+	font-size: 2vw;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font: Arial, Helvetica, sans-serif;
+}
+
+#content p {
+	color: #fdfafa;
+	font-size: 2vw;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font: Arial, Helvetica, sans-serif;
+	opacity: 10%;
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index: 1; 
+  pointer-events: none;
 }
