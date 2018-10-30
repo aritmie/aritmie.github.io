@@ -1,6 +1,1 @@
-$ echo 'aritmie.网络' > CNAME
-$ git add .
-$ git commit -m 'Add a custom domain'
-...
-$ git push
-...
+aritmie.xn--io0a7i
