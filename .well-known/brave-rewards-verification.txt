@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: aritmie.xn--io0a7i
+Token: a10207c368d8843bb993661b24fcc622f9a9f0ee7c0f96fcb74c4afd49518620
